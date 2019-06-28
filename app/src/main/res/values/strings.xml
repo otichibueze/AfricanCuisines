@@ -1,0 +1,257 @@
+<resources>
+    <string name="app_name" translatable="false">African Cuisines</string>
+
+    <!-- Detail Activity-->
+    <string name="Main_Name">Name:</string>
+    <string name="detail_place_of_origin_label">Place of origin:</string>
+    <string name="detail_description_label">Description:</string>
+    <string name="detail_ingredients_label">Ingredients:</string>
+
+    <!-- Content descriptions-->
+    <string name="cuisines_picture_content_description">Cuisine picture</string>
+
+    <!-- Error messages-->
+    <string name="detail_error_message">Cuisine data not available</string>
+
+    <string-array name="Cuisines_names">
+        <item>Oha soup</item>
+        <item>Ogbono soup</item>
+        <item>Afang Soup</item>
+        <item>Amala</item>
+        <item>Banga (soup)</item>
+        <item>Jollof rice</item>
+        <item>Kuli-kuli</item>
+        <item>Edikang Ikong</item>
+        <item>Feijoada</item>
+        <item>Isi ewu</item>
+        <item>Akara</item>
+        <item>Suya</item>
+        <item>Tomato bredie</item>
+        <item>Brik</item>
+        <item>Kushari</item>
+        <item>Egusi soup</item>
+        <item>Ugali</item>
+        <item>Lablabi</item>
+    </string-array>
+
+
+    <string-array name="Cuisines_details">
+        <item>
+	{\"name\":{\"mainName\":\"Oha Soup\"},\"placeOfOrigin\":\"Nigeria, Igbo\",\"description\":\"Ora (Oha) soup is native to the South Eastern Nigeria. It is a very traditional soup similar to the bitterleaf soup but cooked with Ora leaves. Ora (Oha) Soup is special because the tender ora leaves used in preparing this soup recipe are seasonal unlike their bitterleaf counterpart which can be found all year round. Though it is only the vegetable that distinguishes the Ora Soup and the Bitterleaf Soup, they taste so different that it is hard to believe the difference just one ingredient can make in a recipe.
+	\",\"image\":\"https://upload.wikimedia.org/wikipedia/commons/thumb/5/50/Grilled_ham_and_cheese_014.JPG/800px-Grilled_ham_and_cheese_014.JPG\",\"ingredients\":[\"Vegetable Ora leaves\",\"cocoyam\",\"Red Palm Oil\",\"Assorted Beef Includes best cut, shaki (cow tripe)\",\"Assorted Fish Dry Fish and Stock Fish\", \"Chilli pepper\",\"Curry powder\",\"salt and crayfish (to taste)\",\"Stock cubes\",\"Ogiri Igbo\"]}
+        </item>
+        <item>
+	{\"name\":{\"mainName\":\"Ogbono soup\"},\"placeOfOrigin\":\"South Eastern Nigeria\",\"description\":\"Ogbono soup (Igbo: bush mango) is a Nigerian dish made with ground dry ogbono seed (the local name for Irvingia)
+ seeds, with considerable local variation. The ground ogbono seeds are used as a thickener, and give the soup a
+ black coloration. Besides seeds, water and palm oil, it typically contains meat, seasonings such as chili pepper,
+ leaf vegetables and other vegetables. Typical leaf vegetables include bitterleaf and celosia.
+ Typical other vegetables include tomatoes and okra. Typical seasonings include chiles, onions,
+ and iru (fermented locust beans).Typical meats include beef, goat, fish,chicken, bush meat, shrimp, or crayfish.
+
+ It can be eaten with fufu, pounded yam, or with rice. In other countries the soup may be available in packaged prepared
+ form in some markets that specialize in Western African foods.Ogbono soup has a mucilaginous (slimy) texture, similar to
+ okra soup.\",\"image\":\"https://upload.wikimedia.org/wikipedia/commons/3/39/Ogbono_soup.jpg\",\"ingredients\":[\"Ogbono Seeds\",\"Okra\",
+ \"Assorted Meat and Fish Beef\",\"Assorted Beef Includes best cut, shaki (cow tripe)\",\"Shaki (cow tripe)\",
+ \"Dry Fish\",\"Stockfish\",\"red palm oil\",\"Vegetable: Frozen Spinach (you can also use Pumpkin leaves or even Bitterleaf)\"
+ ,\"crayfish\",\"Pepper and Salt (to taste)\",\"onion\",\"Stock cubes\"]}
+</item>
+        <item>
+	{\"name\":{\"mainName\":\"Afang Soup\"},\"placeOfOrigin\":\"South South Nigeria\",\"description\":\"Afang Soup is a vegetable soup that originates from the Efik people of the Efuk kingdom in Cross River State
+and the Ibibio People of Akwa Ibom in South South Nigeria.It is a dish popularly known by Nigerians and also
+some parts of Africa, it is especially popular among the Ibibio, the Anang and the Ndoki people of Akwa Ibom
+and Cross River state whom have adopted this cuisine as part of there cultural identity. It is served at homes
+and also sometimes at ceremonies such as weddings, burials, festivals etc mostly in the southern part of Nigeria.
+Afang soup is very nutritious and cost of preparation can be adaptable based on family needs.
+\",\"image\":\"https://upload.wikimedia.org/wikipedia/commons/9/9e/Afangsoup1.jpg\",\"ingredients\":[\"Assorted Meat and Fish Beef\",\"Shaki (cow tripe)\",
+ \"Dry Fish\",\"Stockfish\",\"Shaki (cow tripe)\",
+ \"palm oil\",\"crayfish\",\"pepper\",\"waterleaf\"
+ ,\"okazi leaf\",\"onion\",\"periwinkle\",\"Salt\"]}
+</item>
+        <item>
+	{\"name\":{\"mainName\":\"Àmàlà\"},\"placeOfOrigin\":\"Western Africa\",\"description\":\"Àmàlà is a Nigerian food made out of yam and/or cassava flour.Yams are peeled,
+sliced, cleaned, dried and then blended into a flour, also called elubo. Yams are white in colour
+but turn brown when dried; this gives àmàlà its colour.Àmàlà is from Western Africa and eaten
+mostly by the Yoruba people in Nigeria.It could be served with a variety of ọbẹ (soups),
+such as ẹfọ, ilá, ewédú, ogbono or gbegiri (black-eyed beans soup)\",\"image\":\"https://upload.wikimedia.org/wikipedia/commons/5/54/Amala.jpg\",\"ingredients\":[\"Yam\",\"Or Cassava flour\"]}
+</item>
+        <item>
+	{\"name\":{\"mainName\":\"Banga (soup)\"},\"placeOfOrigin\":\"South South Nigeria\",\"description\":\"Banga, also known as Oghwo amiedi in Urhobo language and izuwo ibiedi in Isoko language,
+is a type of palm fruit soup from Southern the Niger Delta Nigeria particularly the Urhobo ethnic group.
+This cuisine is quite different from "Ofe Akwu" which is a variant found in Igbo culture. The Binis have a
+soup from palm fruits similar to "Ofe Aku" in ingredients and manner of preparation.
+Banga soup is ceremonially and most preferably eaten with a yellow thick starchy paste from cassava starch called
+"Usi" by the Urhobos as well as their Isoko and Okpe kinsmen. Non Urhobos prefer using Eba because eating "Oghwo"
+with "Usi" is an indigenous craft (cutting starch with the fingers requires learning; unlike for Eba).
+\",\"image\":\"https://upload.wikimedia.org/wikipedia/commons/b/bc/Eba_served_with_Fresh_fish_banga_soup_in_a_clay_pot.jpg
+\",\"ingredients\":[\"Beletete\",\"Aidan fruit\",
+ \"Rohojie\",\"Banga spice leaves called Obenetietien)\",\"scent or bitter leaves\",
+ \"A stick of oburunbebe\",\"crayfish\",\"pepper\",\"Onion\",
+ \"Salt\"]}
+</item>
+        <item>
+	{\"name\":{\"mainName\":\"Jollof rice\"},\"placeOfOrigin\":\"Western Africa\",\"description\":\"Jollof rice is one of the most common dishes in Western Africa, consumed throughout the regions of Nigeria,
+Senegal, Ghana, Sierra Leone, Gambia, Togo, Liberia, Niger, Mali, Ivory Coast and Cameroon.
+In West Africa it is a common favorite at ceremonies such as weddings, graduations and birthday.
+There are several regional variations in name and ingredients.[1] In Mali it is called zaamè in Bamanankan,
+and is a typical Sunday lunchtime favorite in urban, middle-class families. The name Jollof derives from the
+name of the Wolof people,[6] though in Senegal and Gambia the dish is referred to in Wolof as ceebu jën or benachin.
+In French-speaking areas, it is called riz au gras. Despite the variations, the dish is "mutually intelligible" across
+the region, and has spread along with the diaspora to become the best known African dish outside the continent.
+
+Based on its name, the origins of jollof rice can be traced to the Senegambian region that was ruled by the Jolof Empire.
+Food and agriculture historian James C. McCann considers this claim plausible given the popularity of rice in the
+upper Niger valley, but considers it unlikely that the dish could have spread from Senegal to its current range since
+such a diffusion is not seen in "linguistic, historical or political patterns". Instead he proposes that the dish spread
+with the Mali empire, especially the Djula tradespeople who dispersed widely to the regional commercial and urban centers,
+taking with them economic arts of "blacksmithing, small-scale marketing, and rice agronomy" as well as the religion of Islam.
+[2] Marc Dufumier, Emeritus Professor of Agronomy proposes a more recent origin for the dish, which may only have appeared
+as a consequence of the colonial promotion of intensive peanut cropping in central Senegal for the French oil industry,
+and where commensurate reduction in the planted area of traditional millet and sorghum staples was compensated by forced
+imports of broken rice from Southeast Asia.[7] It may then have spread throughout the region through the historical
+commercial, cultural and religious channels linking Senegal with Ghana, Nigeria and beyond, many of which continue to
+thrive today, such as the Tijāniyyah Sufi brotherhood bringing thousands of West African pilgrims to Senegal annually.
+\",\"image\":\"https://upload.wikimedia.org/wikipedia/commons/7/70/Jollof_rice.jpg\",
+\"ingredients\":[\"Tomatoes and tomato paste\",\"Cooking oil\",
+ \"ginger\",\"garlic cumin\",\"Meats\",
+ \"Or fish\",\"crayfish\",\"pepper\",\"Onion\"
+ ,\"Rice\",\"Salt\"]}
+</item>
+
+        <item>
+	{\"name\":{\"mainName\":\"Kuli-kuli\"},\"placeOfOrigin\":\"Western Africa\",\"description\":\"Kuli-kuli is a West African food that is primarily made from peanuts.
+It is a popular snack in Nigeria, Benin, northern Cameroon and Ghana.
+It is often eaten alone or with a mixture of garri, sugar and water popularly called "garri soakings".
+It is also eaten with koko, fura, kamu; and is sometimes ground and put into salad.
+It is often ground as used as an ingredient for Suya and Kilishi
+To make kuli-kuli, peanuts are roasted and then ground into a paste called "Labu".
+The paste is then mixed with spices, salt, and sometimes ground pepper.
+The paste is stripped of excess oil with water, and made into the desired shape (round balls, cylinders, etc.).
+The oil removed in this process is then heated and used to fry the shaped peanut paste until it solidifies.
+It is then removed from the oil and allowed to cool down until ready to be eaten.
+\",\"image\":\"https://upload.wikimedia.org/wikipedia/commons/1/19/Kulikuli.jpg\",
+\"ingredients\":[\"Peanuts\",\"salt\",\"ground pepper\"]}
+</item>
+        <item>
+	{\"name\":{\"mainName\":\"Edikang Ikong\"},\"placeOfOrigin\":\"south Eastern Nigeria\",\"description\":\"Edikang Ikong is a vegetable soup that originated among the Efik- Ibibio people of Akwa Ibom State and
+Cross River State in south Eastern Nigeria.It is considered to be a delicacy among some Nigerians,
+and is sometimes served during occasions of importance.dikang Ikong is a very nutritious soup and
+is expensive to prepare, and has been described as being mostly eaten by rich people in Nigeria.
+After preparation, Edikang Ikong can be served with Nigerian fufu, wheat flour, eba, or pounded yam.
+It is then removed from the oil and allowed to cool down until ready to be eaten.
+\",\"image\":\"https://upload.wikimedia.org/wikipedia/commons/a/a3/Edikaikong.JPG\",
+\"ingredients\":[\"Beef and dried fish\",\"bush meat\",\"crayfish\",\"bush meat\",
+ \"shaki (beef tripe)\",\"kanda\",\"pumpkin leaves\",\"water leaves\",
+ \"Ugu\", \"periwinkle\",\"palm oil\",\"Salt\",\"onion\",\"ground pepper\"]}
+</item>
+        <item>
+	{\"name\":{\"mainName\":\"Feijoada\"},\"placeOfOrigin\":\"East Africa\",\"description\":\"Feijoada is a stew of beans with beef and pork. It is commonly prepared in Portugal, Macau, Angola, Cape Verde, Guinea-Bissau, Mozambique, Timor, Goa, India and Brazil, where it is also considered a national dish. However, the recipe differs slightly from one country to another.
+Brazilian feijoada made with black beans
+The name comes from feijao, Portuguese for beans. The basic ingredients of feijoada are beans with fresh pork or beef.
+In Brazil, it is usually made with black beans (feijoada a brasileira). The stew is best prepared over low heat in a
+thick clay pot.It is usually served with rice and assorted sausages such as chourico, morcela (blood sausage),
+farinheira, and others, which may or may not be cooked in the stew.
+The practice of cooking a meat (pork) stew with vegetables that gave origin to the feijoada from the
+Minho Province in Northern Portugal is a millenary Mediterranean tradition that can be traced back to
+the period when the Romans colonized Iberia.Roman soldiers would bring this habit to every Latin settlement, i.e.,
+all of the provinces of Romania, the Vulgar Latin speaking area of Europe (not to be confused with the modern country solely),
+and this heritage is the source of many national and regional dishes of today\'s Europe, such as the French cassoulet,
+the Milanese cassoeula from Lombardy, Italy, the Romanian fasole cu carnați, the fabada asturiana from Northwestern Spain,
+and the also Spanish cocido madrileno and olla podrida, not to mention non-Romanic regions with similar traditions
+that might be derived from this millennial Roman soldiers dish like the Polish tsholem and golonka.
+Fasolada, labeled the Greek national dish, is related to the ancient Greek dish of broad beans, vegetables, and grains,
+with no meat, unlike the Italian fagiolata and the Portuguese feijoada, which was used as food and sacrifice to
+Greek God Apollo during the Pyanopsia festival.
+\",\"image\":\"https://upload.wikimedia.org/wikipedia/commons/8/84/Feijoada_01.jpg\",
+\"ingredients\":[\"Pork\",\"Beans\",\"crayfish\",\"Vegetable\",\"Rice\"]}
+</item>
+        <item>
+	{\"name\":{\"mainName\":\"Isi ewu\"},\"placeOfOrigin\":\"South South Nigeria\",\"description\":\"Isi ewu (Igbo: Goat\'s head) is a traditional Igbo dish that is made with a goat\'s head.
+\",\"image\":\"https://upload.wikimedia.org/wikipedia/commons/9/94/Isi_Ewu_%2815733423541%29.jpg\",
+\"ingredients\":[\"Goat head\",\"Onions\",\"Palm Oil\",\"pepper\",\"Salt\",\"Stock cube\"]}
+</item>
+
+        <item>
+	{\"name\":{\"mainName\":\"Akara\"},\"placeOfOrigin\":\"West Africa\",\"description\":\"Acarajé (Portuguese pronunciation: [akaɾaˈʒɛ] (About this soundlisten)) or (Yoruba: àkàrà) is a dish made from peeled beans
+formed into a ball and then deep-fried in dendê (palm oil). It is found in West African and Brazilian cuisines.
+The dish is traditionally encountered in Brazil\'s northeastern state of Bahia, especially in the city of Salvador.
+Acarajé serves as both a religious offering to the gods in the Candomblé religion and as street food.
+The dish was brought by enslaved peoples from West Africa, and can be found in various forms in Nigeria,
+Ghana, Togo, Benin, Mali, Gambia and Sierra Leone.
+\",\"image\":\"https://upload.wikimedia.org/wikipedia/commons/a/a4/Acaraje-Baiana.jpg\",
+\"ingredients\":[\"Black eyed beans\",\"Palm Oil\",\"crayfish\",\"Salt\",\"Pepper\",\"Onions\"]}
+</item>
+
+        <item>
+	{\"name\":{\"mainName\":\"Suya\"},\"placeOfOrigin\":\"Northern Nigeria\",\"description\":\"Suya is a spicy meat skewer which is a popular food item in West Africa.[1] It is traditionally prepared by the Hausa people of northern Cameroon, Nigeria, Niger, Ghana,
+and some parts of Sudan (where it is called agashe) Suya is generally made with skewered beef, ram, or chicken. Innards such as kidney, liver and tripe are also used.
+The thinly sliced meat is marinated in various spices which include peanut cake, salt, vegetable oil and other flavorings, and then barbecued.Suya is served with extra
+helpings of dried pepper mixed with spices and sliced onions. Halal meat preparation methods are normally used, especially in the northern parts of Nigeria,where the suspicion
+of nonconformity to Muslim dietary prohibitions in Suya preparation has been known to cause riots. A dried version of Suya is called Kilishi.
+\",\"image\":\"https://upload.wikimedia.org/wikipedia/commons/a/ab/SuyavarietiesTX.JPG\",
+\"ingredients\":[\"complex mixture of spices\",\"Palm Oil\",\"Meat\",\"Pepper\",\"Onions\"]}
+</item>
+
+        <item>
+	{\"name\":{\"mainName\":\"Tomato bredie\"},\"placeOfOrigin\":\"South African\",\"description\":\"Tomato bredie is a South African stew, referred to in Afrikaans as \'tamatiebredie\', normally made with mutton.
+It is cooked for a very long time, and its seasonings include cinnamon, cardamom, ginger and cloves as well as chilli.
+It is of Dutch origin. "Bredie" is the Afrikaans word for "stew", but is actually a word of Malaysian origin.
+This form of cooking was first introduced to the Cape by Malays, who were brought to the colony in most cases as slaves.
+The word bredie refers to oriental spinach. In tomato bredie tomato is used instead. Pumpkin, green beans
+and waterblommetjies (Cape water lily, Aponogeton distachyos, flowers) are also used.
+This traditional South African dish is commonly eaten around South Africa by both locals and tourists.
+\",\"image\":\"https://upload.wikimedia.org/wikipedia/commons/d/d6/Chicken_with_tomato_bredie_%2812567481243%29.jpg\",
+\"ingredients\":[\"Mutton\",\"cinnamon\",\"cardamom\",\"ginger\",\"Onions\",\"cloves\",
+\"chilli\",\"Tomato\"]}
+</item>
+
+        <item>
+	{\"name\":{\"mainName\":\"Brik\"},\"placeOfOrigin\":\"Tunisian\",\"description\":\"Brik is a Tunisian dish consisting of thin pastry around a filling, commonly deep fried.
+The best-known version is the egg brik, a whole egg in a triangular pastry pocket with chopped onion, tuna, harissa
+and parsley.[1] With a slightly different shape, but with identical ingredients and method of preparation,
+the Tunisian brik is known in Algeria as bourek.
+Brik pastry is made by slapping a sticky lump of dough onto a hot non-stick surface in overlapping circles to produce
+the desired size and cooked for a short amount of time. The brik dough sheets are called malsouka or warka.
+\",\"image\":\"https://upload.wikimedia.org/wikipedia/commons/9/94/Brikdish.jpg\",
+\"ingredients\":[\"Tuna\",\"ground meat\",\"raw egg\",\"ginger\",\"chicken\",\"anchovies garnished with harissa\",
+\"capers\",\"chesse\"]}
+</item>
+
+        <item>
+	{\"name\":{\"mainName\":\"Kushari\"},\"placeOfOrigin\":\"Egyptian\",\"description\":\"Kushari, also koshari, is an Egyptian dish originally made in the 19th century, made of rice,
+macaroni, and lentils mixed together, topped with a spiced tomato sauce and garlic vinegar, and
+ garnished with chickpeas and crispy fried onions. Sprinklings of garlic juice, garlic vinegar, and hot sauce are optional.
+\",\"image\":\"https://upload.wikimedia.org/wikipedia/commons/e/e9/Egyptian_food_Koshary.jpg\",
+\"ingredients\":[\"rice\",\"lentils\",\"macaroni\",\"tomato sauce\",\"vegetable oil\",\"onions\",
+\"cumin\"]}
+</item>
+
+        <item>
+	{\"name\":{\"mainName\":\"Egusi soup\"},\"placeOfOrigin\":\"West Africa\",\"description\":\"Egusi soup is a kind of soup thickened with the ground seeds and popular in West Africa, with considerable local variation.
+Besides the seeds, water, and oil, egusi soup typically contains leaf vegetables, other vegetables, seasonings, and meat.
+Leaf vegetables typically used for egusi soup include bitterleaf, pumpkin leaf, celosia and spinach.
+\",\"image\":\"https://upload.wikimedia.org/wikipedia/commons/a/a2/Egusi_and_bitter_leaf_soup..jpg\",
+\"ingredients\":[\"Vegetables\",\"tomatoes\",\"chili peppers\",\"tomato sauce\",\"onions\",\"locust beans\",
+\"beef\",\"goat\",\"Stock fish\",\"Crayfish\",\"Stock cube\"]}
+</item>
+
+        <item>
+	{\"name\":{\"mainName\":\"Ugali\"},\"placeOfOrigin\":\"South Africa, Zimbabwe \",\"description\":\"Nsima (also known as ugali and pap) is a type of cornmeal porridge made in Africa.
+A traditional maize meal dish from South Africa. It is a crumbly or grainy type of pap (polenta) or porridge,
+eaten mainly by the Basotho, Bantu and Afrikaner people. It is cooked in cauldrons or potjies over an open fire,
+and stirred until a coarse consistency is reached.
+\",\"image\":\"https://upload.wikimedia.org/wikipedia/commons/6/65/Ugali_with_beef_and_sauce.JPG\",
+\"ingredients\":[\"Cornmeal\",\"mealie-meal (white maize)\"]}
+</item>
+
+
+        <item>
+	{\"name\":{\"mainName\":\"Lablabi\"},\"placeOfOrigin\":\"Tunisian\",\"description\":\"A Tunisian dish based on chick peas in a thin garlic and cumin-flavoured soup, served over small pieces of stale crusty bread.
+\",\"image\":\"https://upload.wikimedia.org/wikipedia/commons/3/35/Bol_de_Leblabi_de_Tunisie%2C_21_mars_2017.jpg\",
+\"ingredients\":[\"Egg\",\"olive oil\",\"harissa\",\"cumin\",\"capers\"
+,\"tuna\",\"olives\",\"garlic\",\"vinegar\",\"lemon or lime juice\",\"parsley\",\"scallions\"]}
+</item>
+
+
+    </string-array>
+
+</resources>

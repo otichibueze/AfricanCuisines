@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:paddingLeft="10dp"
+    android:paddingRight="10dp"
+    android:paddingBottom="16dp"
+    tools:context="com.chibusoft.africancuisines.DetailActivity">
+
+    <!--TODO: ADD LINEAR LAYOUT, WITH LAYOUT_WIDTH AND HEIGHT = MATCH PARENT, ORIENTATION = VERTICAL-->
+        <!--TODO: INSIDE THE LINEAR LAYOUT ADD ImageView WITH ID = image_iv  -->
+        <!--TODO: INSIDE THE LINEAR LAYOUT ADD TextView WITH ID = origin_lb  -->
+    <!--TODO: INSIDE THE LINEAR LAYOUT ADD TextView WITH ID = origin_details  -->
+    <!--TODO: INSIDE THE LINEAR LAYOUT ADD TextView WITH ID = description_tv  -->
+    <!--TODO: INSIDE THE LINEAR LAYOUT ADD TextView WITH ID = description_details  -->
+    <!--TODO: INSIDE THE LINEAR LAYOUT ADD TextView WITH ID = ingredients_tv  -->
+    <!--TODO: INSIDE THE LINEAR LAYOUT ADD TextView WITH ID = ingredients_details  -->
+
+
+</ScrollView>
+
