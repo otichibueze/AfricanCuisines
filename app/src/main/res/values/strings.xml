@@ -13,6 +13,7 @@
     <!-- Error messages-->
     <string name="detail_error_message">Cuisine data not available</string>
 
+
     <string-array name="Cuisines_names">
         <item>Oha soup</item>
         <item>Ogbono soup</item>
@@ -38,7 +39,7 @@
     <string-array name="Cuisines_details">
         <item>
 	{\"name\":{\"mainName\":\"Oha Soup\"},\"placeOfOrigin\":\"Nigeria, Igbo\",\"description\":\"Ora (Oha) soup is native to the South Eastern Nigeria. It is a very traditional soup similar to the bitterleaf soup but cooked with Ora leaves. Ora (Oha) Soup is special because the tender ora leaves used in preparing this soup recipe are seasonal unlike their bitterleaf counterpart which can be found all year round. Though it is only the vegetable that distinguishes the Ora Soup and the Bitterleaf Soup, they taste so different that it is hard to believe the difference just one ingredient can make in a recipe.
-	\",\"image\":\"https://upload.wikimedia.org/wikipedia/commons/thumb/5/50/Grilled_ham_and_cheese_014.JPG/800px-Grilled_ham_and_cheese_014.JPG\",\"ingredients\":[\"Vegetable Ora leaves\",\"cocoyam\",\"Red Palm Oil\",\"Assorted Beef Includes best cut, shaki (cow tripe)\",\"Assorted Fish Dry Fish and Stock Fish\", \"Chilli pepper\",\"Curry powder\",\"salt and crayfish (to taste)\",\"Stock cubes\",\"Ogiri Igbo\"]}
+	\",\"image\":\"https://img-global.cpcdn.com/001_recipes/a8f05f620ae3bfed/640x640sq70/photo.jpg\",\"ingredients\":[\"Vegetable Ora leaves\",\"cocoyam\",\"Red Palm Oil\",\"Assorted Beef Includes best cut, shaki (cow tripe)\",\"Assorted Fish Dry Fish and Stock Fish\", \"Chilli pepper\",\"Curry powder\",\"salt and crayfish (to taste)\",\"Stock cubes\",\"Ogiri Igbo\"]}
         </item>
         <item>
 	{\"name\":{\"mainName\":\"Ogbono soup\"},\"placeOfOrigin\":\"South Eastern Nigeria\",\"description\":\"Ogbono soup (Igbo: bush mango) is a Nigerian dish made with ground dry ogbono seed (the local name for Irvingia)

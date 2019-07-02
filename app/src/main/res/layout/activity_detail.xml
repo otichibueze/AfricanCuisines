@@ -10,14 +10,66 @@
     android:paddingBottom="16dp"
     tools:context="com.chibusoft.africancuisines.DetailActivity">
 
-    <!--TODO: ADD LINEAR LAYOUT, WITH LAYOUT_WIDTH AND HEIGHT = MATCH PARENT, ORIENTATION = VERTICAL-->
-        <!--TODO: INSIDE THE LINEAR LAYOUT ADD ImageView WITH ID = image_iv  -->
-        <!--TODO: INSIDE THE LINEAR LAYOUT ADD TextView WITH ID = origin_lb  -->
-    <!--TODO: INSIDE THE LINEAR LAYOUT ADD TextView WITH ID = origin_details  -->
-    <!--TODO: INSIDE THE LINEAR LAYOUT ADD TextView WITH ID = description_tv  -->
-    <!--TODO: INSIDE THE LINEAR LAYOUT ADD TextView WITH ID = description_details  -->
-    <!--TODO: INSIDE THE LINEAR LAYOUT ADD TextView WITH ID = ingredients_tv  -->
-    <!--TODO: INSIDE THE LINEAR LAYOUT ADD TextView WITH ID = ingredients_details  -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+
+        <ImageView
+            android:id="@+id/image_iv"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/image_height"
+            android:layout_marginTop="5dp"
+            android:adjustViewBounds="true"
+            android:contentDescription="@string/cuisines_picture_content_description"
+            android:scaleType="centerCrop" />
+
+        <TextView
+            android:id="@+id/origin_tv"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="left"
+            android:textStyle="bold"
+            android:layout_marginTop="10dp"
+            android:text="@string/detail_place_of_origin_label"
+            />
+
+        <TextView
+            android:id="@+id/origin_details"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            />
+
+
+        <TextView
+            android:id="@+id/description_tv"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:text="@string/detail_description_label"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/description_details"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            />
+
+        <TextView
+            android:id="@+id/ingredients_tv"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:text="@string/detail_ingredients_label"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/ingredients_details"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            />
+    </LinearLayout>
 
 
 </ScrollView>

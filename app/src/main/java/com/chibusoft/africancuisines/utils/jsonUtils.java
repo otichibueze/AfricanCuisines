@@ -39,10 +39,10 @@ public class jsonUtils {
             }
 
 
-            //TODO : Create a Cuisine constructor that will take all required fields from json class created above
+            //COMPLETE : Create a Cuisine constructor that will take all required fields from json class created above
+            cuisines = new Cuisine(mainName,placeOfOrigin,description,image,ingredients);
 
-
-            return cuisines;
+             return cuisines;
         }
         catch (JSONException e)
         {
