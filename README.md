@@ -25,6 +25,9 @@ Download project African Cuisine Starter Code and complete all todo's
 
 Design the layout for the detail activity so the different elements display in a sensible way. Implement the JSON parsing in JsonUtils so it produces a Cuisine Object that can be used to populate the UI that you designed.
 
+## View Complete Project
+To view the complete project checkout branch on this repo AfricanCuisineComplete
+
 
 ## License
 ```
