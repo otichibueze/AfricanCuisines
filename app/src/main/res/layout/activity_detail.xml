@@ -10,15 +10,76 @@
     android:paddingBottom="16dp"
     tools:context="com.chibusoft.africancuisines.DetailActivity">
 
-    <!--TODO: ADD LINEAR LAYOUT, WITH LAYOUT_WIDTH AND HEIGHT = MATCH PARENT, ORIENTATION = VERTICAL-->
-        <!--TODO: INSIDE THE LINEAR LAYOUT ADD ImageView WITH ID = image_iv  -->
-        <!--TODO: INSIDE THE LINEAR LAYOUT ADD TextView WITH ID = origin_lb  -->
-    <!--TODO: INSIDE THE LINEAR LAYOUT ADD TextView WITH ID = origin_details  -->
-    <!--TODO: INSIDE THE LINEAR LAYOUT ADD TextView WITH ID = description_tv  -->
-    <!--TODO: INSIDE THE LINEAR LAYOUT ADD TextView WITH ID = description_details  -->
-    <!--TODO: INSIDE THE LINEAR LAYOUT ADD TextView WITH ID = ingredients_tv  -->
-    <!--TODO: INSIDE THE LINEAR LAYOUT ADD TextView WITH ID = ingredients_details  -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:padding="8dp">
 
+        <!-- Cuisine Image -->
+        <ImageView
+            android:id="@+id/image_iv"
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:scaleType="centerCrop"
+            android:contentDescription="@string/cuisines_picture_content_description"
+            android:layout_marginBottom="16dp" />
+
+        <!-- Place of Origin Label -->
+        <TextView
+            android:id="@+id/origin_lb"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/detail_place_of_origin_label"
+            android:textStyle="bold"
+            android:textSize="16sp"
+            android:layout_marginTop="8dp" />
+
+        <!-- Place of Origin Details -->
+        <TextView
+            android:id="@+id/origin_details"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="14sp"
+            android:layout_marginBottom="16dp" />
+
+        <!-- Description Label -->
+        <TextView
+            android:id="@+id/description_tv"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/detail_description_label"
+            android:textStyle="bold"
+            android:textSize="16sp"
+            android:layout_marginTop="8dp" />
+
+        <!-- Description Details -->
+        <TextView
+            android:id="@+id/description_details"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="14sp"
+            android:layout_marginBottom="16dp" />
+
+        <!-- Ingredients Label -->
+        <TextView
+            android:id="@+id/ingredients_tv"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/detail_ingredients_label"
+            android:textStyle="bold"
+            android:textSize="16sp"
+            android:layout_marginTop="8dp" />
+
+        <!-- Ingredients Details -->
+        <TextView
+            android:id="@+id/ingredients_details"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="14sp"
+            android:layout_marginBottom="16dp" />
+
+    </LinearLayout>
 
 </ScrollView>
 

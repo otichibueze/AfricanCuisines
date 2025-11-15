@@ -10,6 +10,7 @@ import android.widget.Toast;
 
 import com.chibusoft.africancuisines.model.Cuisine;
 import com.chibusoft.africancuisines.utils.jsonUtils;
+import com.squareup.picasso.Picasso;
 
 public class DetailActivity extends AppCompatActivity {
 
@@ -18,11 +19,11 @@ public class DetailActivity extends AppCompatActivity {
 
 
     private TextView mPlaceOfOrigin;
-    //TODO: Create TextView PlaceHolder Field For mOriginDetails
-    //TODO: Create TextView PlaceHolder Field For mDescription
-    //TODO: Create TextView PlaceHolder Field For mDescriptionDetails
-    //TODO: Create TextView PlaceHolder Field For mIngredients
-    //TODO: Create TextView PlaceHolder Field For mIngredientsDetails
+    private TextView mOriginDetails;
+    private TextView mDescription;
+    private TextView mDescriptionDetails;
+    private TextView mIngredients;
+    private TextView mIngredientsDetails;
 
 
     @Override
@@ -30,7 +31,7 @@ public class DetailActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_detail);
 
-        //ImageView ingredientsIv = findViewById(R.id.image_iv);
+        ImageView ingredientsIv = findViewById(R.id.image_iv);
 
         Intent intent = getIntent();
         if (intent == null) {
@@ -53,18 +54,22 @@ public class DetailActivity extends AppCompatActivity {
             return;
         }
 
-        //mPlaceOfOrigin = (TextView) findViewById(R.id.origin_tv);
-        //TODO: Set TextView PlaceHolder Field For mOriginDetails
-        //TODO: Set TextView PlaceHolder Field For mDescription
-        //TODO: Set TextView PlaceHolder Field For mDescriptionDetails
-        //TODO: Set TextView PlaceHolder Field For mIngredients
-        //TODO: Set TextView PlaceHolder Field For mIngredientsDetails
-
+        // Initialize all TextViews
+        mPlaceOfOrigin = findViewById(R.id.origin_lb);
+        mOriginDetails = findViewById(R.id.origin_details);
+        mDescription = findViewById(R.id.description_tv);
+        mDescriptionDetails = findViewById(R.id.description_details);
+        mIngredients = findViewById(R.id.ingredients_tv);
+        mIngredientsDetails = findViewById(R.id.ingredients_details);
 
         populateUI(cuisine);
-        //TODO: Use Picasso to load image and into ingredientsIv set
 
-        //setTitle(cuisine.getMainName());
+        // Use Picasso to load cuisine image
+        Picasso.get()
+                .load(cuisine.getImage())
+                .into(ingredientsIv);
+
+        setTitle(cuisine.getMainName());
     }
 
     private void closeOnError() {
@@ -74,14 +79,21 @@ public class DetailActivity extends AppCompatActivity {
 
     private void populateUI(Cuisine cuisine) {
 
-        //TODO: setText of mOriginDetails to cuisine.getPlaceOfOrigin()
-        //TODO: setText of mDescriptionDetails to cuisine.getDescription()
+        // Set place of origin
+        mOriginDetails.setText(cuisine.getPlaceOfOrigin());
 
-        //TODO: Use StringBuilder to append all arrays to for form one sentence
+        // Set description
+        mDescriptionDetails.setText(cuisine.getDescription());
+
+        // Build ingredients list from array
         StringBuilder s = new StringBuilder();
+        for (String ingredient : cuisine.getIngredients()) {
+            s.append(ingredient).append(", ");
+        }
 
-        //TODO: setText of mIngredientsDetails to s
-        // mIngredientsDetails.setText(s.substring(0,s.length() -2));
-
+        // Set ingredients (remove last comma and space)
+        if (s.length() > 2) {
+            mIngredientsDetails.setText(s.substring(0, s.length() - 2));
+        }
     }
 }

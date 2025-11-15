@@ -39,8 +39,8 @@ public class jsonUtils {
             }
 
 
-            //TODO : Create a Cuisine constructor that will take all required fields from json class created above
-
+            // Create a Cuisine object with all parsed fields
+            cuisines = new Cuisine(mainName, placeOfOrigin, description, image, ingredients);
 
             return cuisines;
         }
